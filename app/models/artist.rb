@@ -34,4 +34,8 @@ class Artist
   def self.most_prolific
     self.all.map {|x| x.years_experience}.max
   end
+
+  def create_painting(title, price, gallery)
+    Painting.new(title, price, self, gallery)
+  end
 end

@@ -2,7 +2,7 @@ require_relative '../config/environment.rb'
 
 a1 = Artist.new("Weng", 3)
 a2 = Artist.new("Jin", 5)
-a3 = Artist.new("RIchard", 8)
+a3 = Artist.new("Richard", 8)
 
 g1 = Gallery.new("Moma", "NYC")
 g2 = Gallery.new("MoLA", "LA")
